@@ -1,0 +1,25 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "A Text Editor Written in ElectronJS",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "init": "tsc --init",
+    "dev": "tsc && electron ./dist/main.js",
+    "start": "electron ./dist/main.js"
+  },
+  "keywords": [
+    "Text-Editor"
+  ],
+  "author": "LAZP",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/quill": "^2.0.9",
+    "electron": "^17.1.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "quill": "^1.3.6"
+  }
+}
